@@ -17,6 +17,6 @@ The `Setup`, `Prove` and `Verify` set up the parameters, generate the proof and 
 
 ## brs
 
-The brs folder is an implementation of the Borromean ring signature http://diyhpl.us/~bryan/papers2/bitcoin/Borromean%20ring%20signatures.pdf. We corrected a few notations and equations in the original algorithm and put it in this folder https://github.com/blockchain-research/brs/blob/master/brs.pdf
+The brs folder is an implementation of the Borromean ring signature http://diyhpl.us/~bryan/papers2/bitcoin/Borromean%20ring%20signatures.pdf. I corrected a few notations and equations in the original algorithm and put it in this folder https://github.com/blockchain-research/brs/blob/master/brs.pdf
 
-The range proof based on Borromean ring signature is described in the Confidential Asset paper https://blockstream.com/bitcoin17-final41.pdf. We implemented the range proof method following the paper's algorithm. The performance is around ~20 times better than ccs08. Note compared to ccs08, brs based zk-range proof does not require trusted setup. 
+The range proof based on Borromean ring signature is described in the Confidential Asset paper https://blockstream.com/bitcoin17-final41.pdf. I implemented the range proof method following the paper's algorithm. The performance is around ~20 times better than ccs08. Note compared to ccs08, brs based zk-range proof does not require trusted setup. 
